@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{5D37B309-E95F-8694-ADFD-11A6F3D33BC3}</ProjectGuid>
+    <ProjectGuid>{8FEFD6A9-595A-191A-F5C5-883CCB440A60}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -57,8 +57,13 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\FPMotion.cs" />
+    <Compile Include="Assets\Scripts\DoorMotion.cs" />
   </ItemGroup>
   <ItemGroup>
+     <None Include="Assets\Prefabs\Editions\Coconut Palm Tree Pack\readme.txt" />
+     <None Include="Assets\Prefabs\Editions\Coconut Palm Tree Pack\Shaders\TFP_treecreator\TFPTreeCreatorLeavesOptimized.shader" />
+     <None Include="Assets\Prefabs\Editions\Coconut Palm Tree Pack\Shaders\TFP_treecreator\TFPTreeCreatorBarkOptimized.shader" />
+     <None Include="Assets\Prefabs\Editions\_Television_set\SpecGrayscaleSF.shader" />
     <Reference Include="UnityEngine">
       <HintPath>C:\Program Files\Unity\Hub\Editor\2020.1.4f1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>
     </Reference>
