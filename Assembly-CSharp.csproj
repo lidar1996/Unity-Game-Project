@@ -58,6 +58,7 @@
   <ItemGroup>
     <Compile Include="Assets\Scripts\FPMotion.cs" />
     <Compile Include="Assets\Scripts\DoorMotion.cs" />
+    <Compile Include="Assets\Scripts\SlidingDoorsMotion.cs" />
   </ItemGroup>
   <ItemGroup>
      <None Include="Assets\Prefabs\Editions\Coconut Palm Tree Pack\readme.txt" />
